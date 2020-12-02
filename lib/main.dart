@@ -16,8 +16,7 @@ class IAmRich extends StatelessWidget {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://media.wired.com/photos/5a593a7ff11e325008172bc2/16:9/w_2400,h_1350,c_limit/pulsar-831502910.jpg'),
+            image: AssetImage('diamond.png'),
           ),
         ),
       ),
